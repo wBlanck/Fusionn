@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:wght@400;600&display=swap');
+
+:root {
+  --clr-orange: #feb960;
+  --clr-white: #fff;
+  --clr-gray: #bbbbbb;
+  --clr-black-400: #343434;
+  --clr-black-500: #202020;
+  --clr-black-600: #181818;
+
+
+  --fs-xl: 3.4375rem; /* 55 */
+  --fs-l: 2.5rem; /* 40 */
+  --fs-600: 1.875rem; /* 30 */
+  --fs-500: 1.0625rem; /* 17 */
+  --fs-400: 0.875rem; /* 14 */
+  --fs-300: 0.8125rem; /* 13 */
+}
+
+*,*::before,*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
