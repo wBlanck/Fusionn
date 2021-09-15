@@ -236,3 +236,64 @@ a {
   line-height: 2;
   margin-bottom: 30px;
 }
+/* projects */
+.projects {
+  background-color: var(--clr-black-600);
+  padding-block: 134px;
+}
+.projects__content {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.projects__headings {
+  position: absolute;
+  left: 0;
+  margin-top: 136px;
+  z-index: 1;
+}
+.projects__headings h4::before {
+  bottom: 35px;
+}
+.projects__title {
+  font-size: var(--fs-xl);
+  font-weight: 500;
+}
+.slider-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 173px;
+}
+.slider {
+  width: 800px;
+  height: 600px;
+  background-color: gray;
+}
+.slider-bars {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 40px;
+}
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: var(--clr-gray);
+  cursor: pointer;
+}
+.bar--active {
+  background-color: var(--clr-orange);
+}
+.projects__buttons {
+  align-self: end;
+  margin-bottom: 178px;
+  margin-left: 20px;
+}
+.projects__buttons::before {
+  top: 63px
+}
+.projects__buttons .btn:first-child  {
+  margin-bottom: 10px;
+}
