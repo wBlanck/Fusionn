@@ -282,6 +282,10 @@ a {
   height: 3px;
   background-color: var(--clr-gray);
   cursor: pointer;
+  transition: background-color .2s ease-in-out;
+}
+.bar:hover {
+  background-color: var(--clr-orange);
 }
 .bar--active {
   background-color: var(--clr-orange);
